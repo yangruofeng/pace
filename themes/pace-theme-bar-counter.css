@@ -33,6 +33,18 @@
     background-color: #fff;
 }
 
+.pace::after{
+    display: block;
+    content: ' ';
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right: 0;
+    z-index:99;
+    background-color: #ddd;
+}
+
 .pace .pace-progress {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -76,9 +88,6 @@
     width: 500px;
     color: red;
     text-align: center;
-   /* position: fixed;
-    left: 50%;
-    top: 0;*/
     height: 21px;
     line-height: 21px;
     font-size: 18px;
